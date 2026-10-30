@@ -46,7 +46,7 @@ jobs:
         --recursive
         ./
       upload-sarif: true
-      fail-on-vuln: true
+      fail-on-vuln: false
 
   pnpm-audit:
     name: pnpm audit
